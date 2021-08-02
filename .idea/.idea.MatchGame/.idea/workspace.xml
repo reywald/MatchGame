@@ -10,18 +10,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ada5c331-40b5-449a-b12a-4111b4e0fa49" name="Default Changelist" comment="Add method to setup Matching Game">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatchGame/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchGame/MainWindow.xaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ada5c331-40b5-449a-b12a-4111b4e0fa49" name="Default Changelist" comment="Add method to setup Matching Game" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Ikechukwu Agbarakwe &lt;iaweepingsaint@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
@@ -31,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82C99ED2-E582-4054-AAD8-D9D4D6755403/7c/18f166fa/MouseButtonEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/5FF59C62-71E1-49C2-8BEB-FB25E70435A2/86/c021d1d1/02000003pdb.il" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///MainWindow.xaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -88,7 +91,7 @@
       <workItem from="1626664861515" duration="3366000" />
       <workItem from="1627073124415" duration="2768000" />
       <workItem from="1627108013014" duration="4043000" />
-      <workItem from="1627928693593" duration="5363000" />
+      <workItem from="1627928693593" duration="5892000" />
     </task>
     <task id="LOCAL-00001" summary="Add method to setup Matching Game">
       <created>1627109040332</created>
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627930748236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add a timer to the game">
+      <created>1627937449232</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627937449232</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -133,12 +143,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Add method to setup Matching Game" />
     <MESSAGE value="Make TextBlocks respond to mouse clicks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Make TextBlocks respond to mouse clicks" />
+    <MESSAGE value="Add a timer to the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add a timer to the game" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="76" key="#Deployment" timestamp="1627108873655">
+    <state x="361" y="76" key="#Deployment" timestamp="1627937399299">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
+    <state x="361" y="76" key="#Deployment/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627937399299" />
     <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1627108873655" />
     <state x="642" y="315" key="Github.ShareDialog" timestamp="1627112471621">
       <screen x="0" y="0" width="1536" height="834" />
@@ -232,6 +244,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1627112257586" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1627937462230">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627937462230" />
     <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627108799589">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -240,24 +256,5 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="570" y="324" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834@0.0.1536.834" timestamp="1627110858165" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs</url>
-          <line>58</line>
-          <properties documentPath="$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" initialLine="58">
-            <startOffsets>
-              <option value="1617" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1655" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
