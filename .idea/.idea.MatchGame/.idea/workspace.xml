@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ada5c331-40b5-449a-b12a-4111b4e0fa49" name="Default Changelist" comment="" />
+    <list default="true" id="ada5c331-40b5-449a-b12a-4111b4e0fa49" name="Default Changelist" comment="Add method to setup Matching Game">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MatchGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MatchGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchGame/MainWindow.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/MatchGame/MainWindow.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,15 +24,17 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///MainWindow.xaml.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MatchGame/MainWindow.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98F1E9A3-4402-4C92-9A13-82BED9598294/c7/c7c2a7ad/XamlReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82C99ED2-E582-4054-AAD8-D9D4D6755403/7c/18f166fa/MouseButtonEventArgs.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MatchGame/MainWindow.xaml" />
         <option value="$PROJECT_DIR$/MatchGame/MainWindow.xaml.cs" />
+        <option value="$PROJECT_DIR$/MatchGame/MainWindow.xaml" />
       </list>
     </option>
   </component>
@@ -34,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="MatchGame" type="DotNetProject" factoryName=".NET Project">
@@ -68,30 +83,71 @@
       <updated>1626664811017</updated>
       <workItem from="1626664861515" duration="3366000" />
       <workItem from="1627073124415" duration="2768000" />
-      <workItem from="1627108013014" duration="784000" />
+      <workItem from="1627108013014" duration="4043000" />
+      <workItem from="1627928693593" duration="1738000" />
     </task>
+    <task id="LOCAL-00001" summary="Add method to setup Matching Game">
+      <created>1627109040332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1627109040332</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add method to setup Matching Game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method to setup Matching Game" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1627075918133">
+    <state x="361" y="76" key="#Deployment" timestamp="1627108873655">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627075918133" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1627075918132">
+    <state x="361" y="76" key="#Deployment/0.0.1536.834@0.0.1536.834" timestamp="1627108873655" />
+    <state x="642" y="315" key="Github.ShareDialog" timestamp="1627112471621">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627075918132" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1627075918132">
+    <state x="642" y="315" key="Github.ShareDialog/0.0.1536.834@0.0.1536.834" timestamp="1627112471621" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1627929089885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627075918132" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1627075918133">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627929089885" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1627929089885">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627075918133" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627929089885" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1627929089880">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627929089880" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1627929089885">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627929089885" />
     <state width="1493" height="292" key="GridCell.Tab.1.bottom" timestamp="1627075918103">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -156,5 +212,21 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1493" height="292" key="GridCell.Tab.4.right/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627075918108" />
+    <state x="447" y="120" key="RiderGenerateDialog" timestamp="1627929218654">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="447" y="120" key="RiderGenerateDialog/0.0.1536.834/-1280.0.1280.994@0.0.1536.834" timestamp="1627929218654" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1627112257586">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1627112257586" />
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627108799589">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="578" y="331" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1627108799589" />
+    <state x="570" y="324" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1627110858165">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="570" y="324" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834@0.0.1536.834" timestamp="1627110858165" />
   </component>
 </project>
